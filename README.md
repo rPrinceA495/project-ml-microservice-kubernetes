@@ -1,4 +1,4 @@
-<include a CircleCI status badge, here>
+[![CircleCI](https://dl.circleci.com/status-badge/img/gh/rPrinceA495/project-ml-microservice-kubernetes/tree/master.svg?style=svg)](https://dl.circleci.com/status-badge/img/gh/rPrinceA495/project-ml-microservice-kubernetes/tree/master)
 
 ## Project Overview
 
@@ -46,5 +46,8 @@ source .devops/bin/activate
 
 * Setup and Configure Docker locally
 * Setup and Configure Kubernetes locally
+* Setup minikube
+* Use shell command ./run_docker.sh to build image and run app
 * Create Flask app in Container
-* Run via kubectl
+* Install kubectl tool
+* Run Docker Hub container and forward container port to a host using the ./run_kubernetes.sh command
