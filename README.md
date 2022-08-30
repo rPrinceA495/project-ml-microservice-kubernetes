@@ -51,3 +51,4 @@ source .devops/bin/activate
 * Create Flask app in Container
 * Install kubectl tool
 * Run Docker Hub container and forward container port to a host using the ./run_kubernetes.sh command
+<!-- -->
